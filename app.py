@@ -38,7 +38,6 @@ def get_text_chunks(raw_text: str) -> list:
     )
     chunks = text_splitter.split_text(raw_text)
 
-    print(f'chunks has the type {type(chunks)}')
     return chunks
 
 
